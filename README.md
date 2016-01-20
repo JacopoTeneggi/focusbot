@@ -4,7 +4,7 @@ Slack Bot to keep you on focus!
 Once you have downloaded the package make sure to run:
 
 ```sh
-npm install
+$ npm install
 ```
 to install all the depencencies.
 
@@ -14,14 +14,14 @@ to install all the depencencies.
 Once you have created a Bot User for your team (How to: [Slack Documentation]) and received your Access Token write:
 
 ```sh
-add-team --team your_team --token your_token
+$ add-team --team your_team --token your_token
 ```
 
 # Start the Bot
 To start, run:
 
 ```sh
-node . --team current_team
+$ node . --team current_team
 ```
 if you want to connect to a specified team, otherwise the first team of the list will be chosen.
 
