@@ -12,6 +12,6 @@
     "yargs": "^3.32.0"
   },
   "bin": {
-    "add-team": "bin/test.js"
+    "add-team": "bin/addTeam.js"
   }
 }
